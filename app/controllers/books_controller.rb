@@ -12,7 +12,12 @@ before_action :find_book, only: [:show, :edit, :update, :destroy]
   end
 
   def create
-  	@book = Book.new(book_params)
+    @book = Book.new(book_params)
+      if @book.save
+        redirect_to root_path
+      else
+        render 'new'
+      end
   end
 
   def show
