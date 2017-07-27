@@ -4,7 +4,7 @@ before_action :find_book, only: [:show, :edit, :update, :destroy]
 
 
   def index
-  	@books = Book.all
+  	@books = Book.all.order("created_at DESC")
   end
 
   def new
