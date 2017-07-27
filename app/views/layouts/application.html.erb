@@ -17,7 +17,10 @@
   </div>
  <ul class="nav navbar-nav">
 	 <li><%= link_to "Sign up", new_user_registration_path%></li>
-	 <li></li>
+   <% if user_signed_in? %>
+
+	 <li><%= link_to "Sign Out", destroy_user_session, method: :delete %></li>
+   <% end %>
 	 <li></li>
  </ul>
   </div>
