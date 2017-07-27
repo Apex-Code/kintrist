@@ -27,6 +27,11 @@ before_action :find_book, only: [:show, :edit, :update, :destroy]
   end
 
   def update
+    if @book.update(book_params)
+      redirect_to book_path(@book)
+    else
+      render 'edit'
+    end
   end
 
   def destroy
