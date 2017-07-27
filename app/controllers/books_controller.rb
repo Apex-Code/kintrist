@@ -36,6 +36,7 @@ before_action :find_book, only: [:show, :edit, :update, :destroy]
 
   def destroy
   	@book.destroy
+    redirect_to root_path
   end
 
 private
