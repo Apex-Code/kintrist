@@ -5,6 +5,7 @@ before_action :find_book, only: [:show, :edit, :update, :destroy]
 
   def index
   	@books = Book.all.order("created_at DESC")
+    @user = current_user
   end
 
   def new
