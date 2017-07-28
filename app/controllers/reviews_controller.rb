@@ -32,4 +32,20 @@ class ReviewsController < ApplicationController
 		redirect_to book_path(@book)
 	end
 
+	private
+
+		def review_params
+			params.require(:review).permit(:rating, :comment)
+		end
+
+		def find_book
+			@book = Book.find(params[:book_id])
+		end
+
+		def find_review
+			@review = Review.find(params[:id])
+		end
+
+end
+
 end
