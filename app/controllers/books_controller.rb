@@ -16,7 +16,7 @@
     if @book.reviews.blank?
       @average_review = 0
     else
-      @average_review = @book.reviews.average(:rating).round(2)
+      @average_review = @book.reviews.average(:rating)
     end
   end
 
