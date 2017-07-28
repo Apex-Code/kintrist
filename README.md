@@ -37,8 +37,11 @@ Kintrist is a book review app built with Rails 5 and Ruby 2.3.1, as part of my #
 [X]  To be updated at the end of current challenge 
 
 [] Books are unique (No duplicate titles)
+
 [] Replace email with username
+
 [] Greet user with something like "logged in as Havick"
+
 [] Mobile first formatting
 
 
