@@ -63,6 +63,5 @@
     def find_book
       @book = Book.find(params[:id])
     end
-
 end
 
