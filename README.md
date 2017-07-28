@@ -2,7 +2,7 @@
 
 *************Kintrist*****************
 
-Kintrist is a book review app built with Rails 5 and Ruby 2.3.1, as part of my #14in14.  The #14in14 challenge is to complete 14 days.  There will be a follow up to this challenge where I add functionality to the applications which will be the #14in14revamped.  Below is the basic functionality implemented in the developement phase of the original 14 in 14 challenge, followed by the goals for the 14 in 14 revamped challenge.  I hope you enjoy!
+Kintrist is a book review app built with Rails 5 and Ruby 2.3.1, as part of my #14in14.  The #14in14 challenge is to complete 14 Rails apps in 14 days.  There will be a follow up to this challenge where I add functionality to the applications which will be the #14in14revamped.  Below is the basic functionality implemented in the developement phase of the original 14 in 14 challenge, followed by the goals for the 14 in 14 revamped challenge.  I hope you enjoy!
 
 **********Users**********
 
