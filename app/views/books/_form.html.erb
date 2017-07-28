@@ -2,6 +2,7 @@
 
 
 <%= select_tag(:category_id, options_for_select(@categories), :prompt => "Select a category") %>
+<%= f.file_field :book_img %>
 <%= f.input :title, label: "Book Title" %>
 <%= f.input :author, label: "Author" %>
 <%= f.input :description, label: "Brief Description" %>
